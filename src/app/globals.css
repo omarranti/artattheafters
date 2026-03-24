@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-pink: #FF3399;
-  --color-brand-green: #39FF33;
-  --color-brand-dark: #0D0D0D;
-  --color-brand-dark2: #161616;
-  --color-brand-dark3: #1E1E1E;
-  --color-brand-gray: #2A2A2A;
-  --color-brand-gray2: #3A3A3A;
-  --color-brand-muted: #777777;
-  --color-brand-white: #F5F5F5;
+  --color-brand-pink: #FF44AA;
+  --color-brand-green: #5BFFA0;
+  --color-brand-dark: #1A1825;
+  --color-brand-dark2: #221F30;
+  --color-brand-dark3: #2A2738;
+  --color-brand-gray: #3D3A4E;
+  --color-brand-gray2: #504D63;
+  --color-brand-muted: #9490A8;
+  --color-brand-white: #F8F6FF;
 
   --font-display: var(--font-display);
   --font-body: var(--font-body);
@@ -54,8 +54,8 @@ html {
 }
 
 body {
-  background-color: #0D0D0D;
-  color: #F5F5F5;
+  background-color: #1A1825;
+  color: #F8F6FF;
   font-family: var(--font-body), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -65,13 +65,13 @@ body {
    Selection
    ──────────────────────────────────────────── */
 ::selection {
-  background-color: rgba(255, 51, 153, 0.27);
-  color: #F5F5F5;
+  background-color: rgba(255, 68, 170, 0.3);
+  color: #F8F6FF;
 }
 
 ::-moz-selection {
-  background-color: rgba(255, 51, 153, 0.27);
-  color: #F5F5F5;
+  background-color: rgba(255, 68, 170, 0.3);
+  color: #F8F6FF;
 }
 
 /* ────────────────────────────────────────────
@@ -79,7 +79,7 @@ body {
    ──────────────────────────────────────────── */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #FF3399 #1E1E1E;
+  scrollbar-color: #FF44AA #2A2738;
 }
 
 *::-webkit-scrollbar {
@@ -88,16 +88,16 @@ body {
 }
 
 *::-webkit-scrollbar-track {
-  background: #1E1E1E;
+  background: #2A2738;
 }
 
 *::-webkit-scrollbar-thumb {
-  background: #FF3399;
+  background: #FF44AA;
   border-radius: 3px;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background: #ff55aa;
+  background: #FF66BB;
 }
 
 /* ────────────────────────────────────────────

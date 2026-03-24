@@ -34,7 +34,7 @@ export default function CategoryFilter({
               <motion.button
                 key={category}
                 onClick={() => onCategoryChange(category)}
-                className={`relative rounded-xl px-5 py-2.5 text-sm font-body uppercase tracking-wider whitespace-nowrap cursor-pointer transition-colors duration-200 ${
+                className={`relative rounded-xl px-5 py-3.5 min-h-[48px] text-sm font-body uppercase tracking-wider whitespace-nowrap cursor-pointer transition-colors duration-200 ${
                   isActive
                     ? "text-brand-pink"
                     : "text-brand-muted hover:bg-white/[0.08]"

@@ -78,7 +78,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             <motion.button
               onClick={onClose}
               aria-label="Close menu"
-              className="flex items-center justify-center w-11 h-11 rounded-full bg-brand-dark2 border border-brand-gray/20 text-white hover:bg-white/15 transition-colors duration-200"
+              className="flex items-center justify-center w-12 h-12 rounded-full bg-brand-dark2 border border-brand-gray/20 text-white hover:bg-white/15 transition-colors duration-200"
               whileTap={{ scale: 0.9 }}
             >
               <svg
@@ -142,7 +142,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
-                className="flex items-center justify-center w-11 h-11 rounded-full bg-brand-dark2 border border-brand-gray/20 text-white/70 hover:text-white hover:bg-white/10 transition-all duration-200"
+                className="flex items-center justify-center w-12 h-12 rounded-full bg-brand-dark2 border border-brand-gray/20 text-white/70 hover:text-white hover:bg-white/10 transition-all duration-200"
               >
                 <svg
                   width="18"
@@ -165,7 +165,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok"
-                className="flex items-center justify-center w-11 h-11 rounded-full bg-brand-dark2 border border-brand-gray/20 text-white/70 hover:text-white hover:bg-white/10 transition-all duration-200"
+                className="flex items-center justify-center w-12 h-12 rounded-full bg-brand-dark2 border border-brand-gray/20 text-white/70 hover:text-white hover:bg-white/10 transition-all duration-200"
               >
                 <svg
                   width="18"
@@ -182,7 +182,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Twitter / X"
-                className="flex items-center justify-center w-11 h-11 rounded-full bg-brand-dark2 border border-brand-gray/20 text-white/70 hover:text-white hover:bg-white/10 transition-all duration-200"
+                className="flex items-center justify-center w-12 h-12 rounded-full bg-brand-dark2 border border-brand-gray/20 text-white/70 hover:text-white hover:bg-white/10 transition-all duration-200"
               >
                 <svg
                   width="16"

@@ -39,7 +39,7 @@ export default function Hero() {
   return (
     <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-brand-dark px-4">
       {/* Background radial gradient */}
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(57,255,51,0.05)_0%,_transparent_60%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(91,255,160,0.05)_0%,_transparent_60%)]" />
 
       {/* Floating background artwork thumbnails */}
       {floatingImages.map((img, i) => (

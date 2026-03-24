@@ -55,14 +55,14 @@ export default function FloatingCTA() {
               </div>
               <Link
                 href="/order"
-                className="flex-shrink-0 bg-brand-pink text-brand-white rounded-full px-5 py-2.5 text-sm font-body font-bold uppercase tracking-wider hover:brightness-110 transition-all"
+                className="flex-shrink-0 bg-brand-pink text-brand-white rounded-full px-5 py-3 min-h-[44px] flex items-center text-sm font-body font-bold uppercase tracking-wider hover:brightness-110 transition-all"
               >
                 Start Your Piece
               </Link>
               <button
                 onClick={() => setDismissed(true)}
                 aria-label="Dismiss"
-                className="flex-shrink-0 text-white/30 hover:text-white/60 transition-colors p-1"
+                className="flex-shrink-0 text-white/30 hover:text-white/60 transition-colors w-10 h-10 flex items-center justify-center"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
                   <line x1="18" y1="6" x2="6" y2="18" />

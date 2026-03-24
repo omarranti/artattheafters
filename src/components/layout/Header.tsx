@@ -99,7 +99,7 @@ export default function Header() {
             <button
               onClick={() => setMobileMenuOpen(true)}
               aria-label="Open menu"
-              className="md:hidden p-2 rounded-xl text-brand-white/80 hover:text-white hover:bg-white/10 transition-all duration-200"
+              className="md:hidden w-12 h-12 flex items-center justify-center rounded-xl text-brand-white/80 hover:text-white hover:bg-white/10 transition-all duration-200"
             >
               <svg
                 width="24"

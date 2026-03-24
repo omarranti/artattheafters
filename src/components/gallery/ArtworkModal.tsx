@@ -99,7 +99,7 @@ export default function ArtworkModal({
           {/* Close button */}
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 sm:top-6 sm:right-6 z-50 w-11 h-11 flex items-center justify-center rounded-full bg-brand-dark2 border border-brand-gray/20 text-white/70 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
+            className="absolute top-4 right-4 sm:top-6 sm:right-6 z-50 w-12 h-12 flex items-center justify-center rounded-full bg-brand-dark2 border border-brand-gray/20 text-white/70 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
             aria-label="Close"
           >
             <svg
@@ -124,7 +124,7 @@ export default function ArtworkModal({
               e.stopPropagation();
               onPrev();
             }}
-            className="absolute left-2 sm:left-6 top-1/2 -translate-y-1/2 z-50 w-11 h-11 sm:w-12 sm:h-12 flex items-center justify-center rounded-full bg-brand-dark2 border border-brand-gray/20 text-white/70 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
+            className="absolute left-2 sm:left-6 top-1/2 -translate-y-1/2 z-50 w-12 h-12 flex items-center justify-center rounded-full bg-brand-dark2 border border-brand-gray/20 text-white/70 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
             aria-label="Previous artwork"
           >
             <svg
@@ -148,7 +148,7 @@ export default function ArtworkModal({
               e.stopPropagation();
               onNext();
             }}
-            className="absolute right-2 sm:right-6 top-1/2 -translate-y-1/2 z-50 w-11 h-11 sm:w-12 sm:h-12 flex items-center justify-center rounded-full bg-brand-dark2 border border-brand-gray/20 text-white/70 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
+            className="absolute right-2 sm:right-6 top-1/2 -translate-y-1/2 z-50 w-12 h-12 flex items-center justify-center rounded-full bg-brand-dark2 border border-brand-gray/20 text-white/70 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
             aria-label="Next artwork"
           >
             <svg
@@ -273,7 +273,7 @@ export default function ArtworkModal({
               {/* Share button */}
               <button
                 onClick={handleCopyLink}
-                className="rounded-full px-4 py-2 flex items-center gap-2 font-body text-white/50 text-sm bg-brand-dark border border-brand-gray/20 hover:text-white/80 transition-colors cursor-pointer self-start"
+                className="rounded-full px-4 py-3 min-h-[44px] flex items-center gap-2 font-body text-white/50 text-sm bg-brand-dark border border-brand-gray/20 hover:text-white/80 transition-colors cursor-pointer self-start"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

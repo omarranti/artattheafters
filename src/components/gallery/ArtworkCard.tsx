@@ -46,7 +46,7 @@ export default function ArtworkCard({ artwork, index, onClick }: ArtworkCardProp
       }}
       whileHover={{
         scale: 1.02,
-        borderColor: "rgba(255, 51, 153, 0.3)",
+        borderColor: "rgba(255, 68, 170, 0.3)",
       }}
       onClick={() => onClick(artwork)}
       layout

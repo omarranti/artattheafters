@@ -2,15 +2,15 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 
-const PINK = "#FF3399";
-const GREEN = "#39FF33";
-const DARK = "#0D0D0D";
-const DARK2 = "#161616";
-const DARK3 = "#1E1E1E";
-const GRAY = "#2A2A2A";
-const GRAY2 = "#3A3A3A";
-const MUTED = "#777";
-const WHITE = "#F5F5F5";
+const PINK = "#FF44AA";
+const GREEN = "#5BFFA0";
+const DARK = "#1A1825";
+const DARK2 = "#221F30";
+const DARK3 = "#2A2738";
+const GRAY = "#3D3A4E";
+const GRAY2 = "#504D63";
+const MUTED = "#9490A8";
+const WHITE = "#F8F6FF";
 
 const SIZES = [
   { id: "5x7", label: "5×7", w: 5, h: 7, base: 50, tag: "Mini" },
@@ -561,6 +561,7 @@ const visualizeStyles = `
 
   .visualize-btn-go {
     padding: 16px 48px;
+    min-height: 52px;
     background: transparent;
     border: 1.5px solid ${GREEN};
     color: ${GREEN};
@@ -573,6 +574,9 @@ const visualizeStyles = `
     text-transform: uppercase;
     transition: all 0.3s ease;
     -webkit-tap-highlight-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
   .visualize-btn-go:active {
     background: ${GREEN}15;
@@ -658,7 +662,8 @@ const visualizeStyles = `
   }
 
   .visualize-pill {
-    padding: 10px 20px;
+    padding: 12px 20px;
+    min-height: 48px;
     border-radius: 100px;
     border: 1.5px solid ${GRAY2};
     background: transparent;
@@ -669,6 +674,9 @@ const visualizeStyles = `
     transition: all 0.25s ease;
     font-weight: 400;
     -webkit-tap-highlight-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
   .visualize-pill.active {
     border-color: ${PINK};
@@ -685,6 +693,7 @@ const visualizeStyles = `
 
   .visualize-btn-back {
     padding: 12px 28px;
+    min-height: 48px;
     background: transparent;
     border: 1px solid ${GRAY2};
     color: ${MUTED};
@@ -693,10 +702,13 @@ const visualizeStyles = `
     cursor: pointer;
     font-family: 'Outfit', sans-serif;
     -webkit-tap-highlight-color: transparent;
+    display: inline-flex;
+    align-items: center;
   }
 
   .visualize-btn-next {
     padding: 12px 36px;
+    min-height: 48px;
     background: ${GRAY};
     border: none;
     color: ${MUTED};
@@ -708,6 +720,8 @@ const visualizeStyles = `
     letter-spacing: 1px;
     transition: all 0.3s;
     -webkit-tap-highlight-color: transparent;
+    display: inline-flex;
+    align-items: center;
   }
   .visualize-btn-next.enabled {
     background: ${PINK};
@@ -772,7 +786,8 @@ const visualizeStyles = `
   }
 
   .visualize-tab {
-    padding: 8px 14px;
+    padding: 10px 14px;
+    min-height: 44px;
     background: transparent;
     color: ${MUTED};
     border: none;
@@ -786,6 +801,8 @@ const visualizeStyles = `
     white-space: nowrap;
     flex-shrink: 0;
     -webkit-tap-highlight-color: transparent;
+    display: inline-flex;
+    align-items: center;
   }
   .visualize-tab.active {
     background: ${GRAY};
@@ -1155,9 +1172,12 @@ const visualizeStyles = `
   }
 
   .visualize-cta-primary {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     padding: 16px;
+    min-height: 52px;
     background: ${PINK};
     color: ${WHITE};
     border-radius: 100px;
@@ -1173,9 +1193,12 @@ const visualizeStyles = `
   }
 
   .visualize-cta-secondary {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     padding: 16px;
+    min-height: 52px;
     background: transparent;
     border: 1.5px solid ${GREEN};
     color: ${GREEN};
@@ -1220,6 +1243,7 @@ const visualizeStyles = `
 
   .visualize-btn-step {
     padding: 12px 28px;
+    min-height: 48px;
     background: ${PINK};
     border: none;
     color: ${WHITE};
@@ -1230,6 +1254,8 @@ const visualizeStyles = `
     font-weight: 600;
     letter-spacing: 1px;
     -webkit-tap-highlight-color: transparent;
+    display: inline-flex;
+    align-items: center;
   }
   @media (min-width: 640px) {
     .visualize-btn-step { padding: 12px 32px; }
