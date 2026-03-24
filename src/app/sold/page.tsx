@@ -4,7 +4,13 @@ import { getSoldArtworks } from "@/data/artworks";
 import Button from "@/components/ui/Button";
 
 export const metadata: Metadata = {
-  title: "Sold — Art at the Afters",
+  title: 'Sold',
+  description: 'Sold artwork from Art at the Afters. 75+ paintings shipped to 5 countries and 17 cities worldwide. See what collectors are buying.',
+  openGraph: {
+    title: 'Sold — Art at the Afters',
+    description: '75+ custom paintings sold worldwide. See what collectors are buying.',
+    images: ['/gallery/artwork/stevie-abstract-colorful.jpg'],
+  },
 };
 
 export default function SoldPage() {

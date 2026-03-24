@@ -3,14 +3,22 @@ import Image from "next/image";
 import GalleryGrid from "@/components/gallery/GalleryGrid";
 import { artworks } from "@/data/artworks";
 import EmailCapture from "@/components/ui/EmailCapture";
+import { ArtGalleryJsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Gallery — Art at the Afters",
+  title: 'Gallery',
+  description: 'Browse the full collection of custom hand-painted artwork by Stevie Alger. Pop culture, anime, abstract, and original pieces. Commission your own custom painting.',
+  openGraph: {
+    title: 'Gallery — Art at the Afters',
+    description: 'Browse 75+ custom hand-painted pieces. Pop culture, anime, abstract art.',
+    images: ['/gallery/artwork/stevie-face-portrait.jpg'],
+  },
 };
 
 export default function GalleryPage() {
   return (
     <>
+      <ArtGalleryJsonLd />
       {/* Hero */}
       <section className="relative pt-32 pb-16 px-6 text-center">
         <h1 className="text-7xl md:text-9xl tracking-tight text-white font-display">

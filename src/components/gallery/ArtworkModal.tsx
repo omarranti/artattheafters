@@ -186,6 +186,8 @@ export default function ArtworkModal({
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                     priority
+                    placeholder="blur"
+                    blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBmaWxsPSIjMWExYTFhIi8+PC9zdmc+"
                   />
                 ) : (
                   <div
@@ -254,7 +256,7 @@ export default function ArtworkModal({
                   )}
                   <a
                     href="/order"
-                    className="rounded-full px-6 py-3.5 text-center font-body font-bold uppercase tracking-wider text-sm bg-brand-pink text-brand-white hover:brightness-110 hover:opacity-90 transition-colors"
+                    className="rounded-full px-6 py-3.5 min-h-[48px] flex items-center justify-center text-center font-body font-bold uppercase tracking-wider text-sm bg-brand-pink text-brand-white hover:brightness-110 hover:opacity-90 transition-colors"
                   >
                     Commission Something Similar
                   </a>
@@ -262,7 +264,7 @@ export default function ArtworkModal({
               ) : (
                 <a
                   href="/order"
-                  className="rounded-full px-6 py-3.5 text-center font-body font-bold uppercase tracking-wider text-sm bg-brand-green/15 text-brand-green border border-brand-green/20 hover:bg-brand-green/25 hover:border-brand-green/35 transition-colors"
+                  className="rounded-full px-6 py-3.5 min-h-[48px] flex items-center justify-center text-center font-body font-bold uppercase tracking-wider text-sm bg-brand-green/15 text-brand-green border border-brand-green/20 hover:bg-brand-green/25 hover:border-brand-green/35 transition-colors"
                 >
                   Start Your Custom Piece — ${artwork.price}
                 </a>

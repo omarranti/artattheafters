@@ -1,0 +1,16 @@
+{
+  "name": "Art at the Afters",
+  "short_name": "AATA",
+  "description": "One of a kind custom made artwork, delivered to you.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D0D0D",
+  "theme_color": "#FF3399",
+  "icons": [
+    {
+      "src": "/icons/concept4_favicon_512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -7,7 +7,13 @@ import ShippingInfo from "@/components/order/ShippingInfo";
 import OrderTestimonials from "@/components/order/OrderTestimonials";
 
 export const metadata: Metadata = {
-  title: "Order — Art at the Afters",
+  title: 'Order Custom Art',
+  description: 'Commission a one-of-a-kind custom painting by Stevie Alger. Choose your canvas size, describe your vision, and get a hand-painted original delivered to your door. Starting at $45.',
+  openGraph: {
+    title: 'Order Custom Art — Art at the Afters',
+    description: 'Commission your own custom painting. Starting at $45. Shipped worldwide.',
+    images: ['/gallery/artwork/elmo-fire.jpg'],
+  },
 };
 
 export default function OrderPage() {
