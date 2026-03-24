@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import SizeGuide from "@/components/order/SizeGuide";
 import CommissionForm from "@/components/order/CommissionForm";
-import CommissionSlots from "@/components/order/CommissionSlots";
 import ProcessTimeline from "@/components/order/ProcessTimeline";
 import ShippingInfo from "@/components/order/ShippingInfo";
 import OrderTestimonials from "@/components/order/OrderTestimonials";
@@ -32,12 +31,7 @@ export default function OrderPage() {
         </div>
       </section>
 
-      {/* Commission Slots */}
-      <section className="px-6 pt-8">
-        <CommissionSlots />
-      </section>
-
-      {/* Size Guide */}
+{/* Size Guide */}
       <section className="py-16 md:py-20 px-6">
         <SizeGuide />
       </section>
