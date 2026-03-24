@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <circle cx="150" cy="150" r="145" fill="#1A1A1A" stroke="#2A2A2A" stroke-width="1"/>
+  <g transform="translate(55, 15) scale(0.95)"><path d="M48 170 Q52 135 60 95 Q68 58 78 28 Q84 12 90 5 Q93 2 95 3" stroke="#FF3399" stroke-width="18" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+    <path d="M95 3 Q97 2 100 5 Q106 12 112 28 Q122 58 130 95 Q138 135 142 170" stroke="#FF3399" stroke-width="18" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+    <path d="M62 110 Q78 104 95 108 Q112 112 128 106" stroke="#39FF33" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.75"/></g>
+  <text x="150" y="240" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#F5F5F5" letter-spacing="3">AFTERS</text>
+  <path d="M110 250 Q130 247 150 249 Q170 251 190 248" stroke="#39FF33" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <text x="150" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666666" font-style="italic">by Stevie Alger</text>
+</svg>

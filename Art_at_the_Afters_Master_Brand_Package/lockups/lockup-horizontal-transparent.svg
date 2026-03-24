@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260">
+  <g transform="translate(135, 55)"><path d="M48 170 Q52 135 60 95 Q68 58 78 28 Q84 12 90 5 Q93 2 95 3" stroke="#FF3399" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+    <path d="M95 3 Q97 2 100 5 Q106 12 112 28 Q122 58 130 95 Q138 135 142 170" stroke="#FF3399" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+    <path d="M62 110 Q78 104 95 108 Q112 112 128 106" stroke="#39FF33" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.75"/>
+    <path d="M48 172 Q47 186 49 198 Q50 206 48 212" stroke="#FF3399" stroke-width="2.8" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <circle cx="48" cy="216" r="3.8" fill="#FF3399" opacity="0.6"/>
+    <path d="M97 114 Q98 125 96 134" stroke="#39FF33" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.45"/>
+    <circle cx="96" cy="137" r="2.5" fill="#39FF33" opacity="0.45"/>
+    <circle cx="95" cy="0" r="3" fill="#FF3399" opacity="0.4"/>
+    <circle cx="105" cy="-1" r="1.8" fill="#FF3399" opacity="0.28"/>
+    <circle cx="83" cy="0" r="1.5" fill="#FF3399" opacity="0.22"/></g>
+  <line x1="330" y1="60" x2="330" y2="210" stroke="#33333366" stroke-width="0.5"/>
+  <text x="355" y="105" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#F5F5F5" letter-spacing="2">ART</text>
+    <text x="355" y="129.8" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="6" fill="#555555">AT THE</text>
+    <text x="355" y="177.0" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#F5F5F5" letter-spacing="2">AFTERS</text>
+  <path d="M353 195 Q417.75 191 445 194 Q473.25 197 538 192" stroke="#39FF33" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <text x="355" y="218" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#666666" font-style="italic" letter-spacing="1">by <tspan font-family="Georgia, serif" fill="#888888" letter-spacing="2">Stevie Alger</tspan></text>
+</svg>

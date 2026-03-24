@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80" width="400" height="80">
+  <g transform="translate(10, 5) scale(0.3)"><path d="M48 170 Q52 135 60 95 Q68 58 78 28 Q84 12 90 5 Q93 2 95 3" stroke="#FF3399" stroke-width="18" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+    <path d="M95 3 Q97 2 100 5 Q106 12 112 28 Q122 58 130 95 Q138 135 142 170" stroke="#FF3399" stroke-width="18" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+    <path d="M62 110 Q78 104 95 108 Q112 112 128 106" stroke="#39FF33" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.75"/></g>
+  <text x="75" y="32" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#F5F5F5" letter-spacing="1">Art at the Afters</text>
+  <text x="75" y="50" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#666666" font-style="italic" letter-spacing="1">by <tspan font-family="Georgia, serif" fill="#888888" letter-spacing="1">Stevie Alger</tspan></text>
+  <path d="M75 38 Q129.25 34 152 37 Q175.75 40 230 35" stroke="#39FF33" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.3"/>
+</svg>

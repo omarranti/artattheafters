@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 140" width="800" height="140">
+  <rect width="800" height="140" fill="#FAFAFA"/>
+  <g transform="translate(30, 15) scale(0.4)"><path d="M48 170 Q52 135 60 95 Q68 58 78 28 Q84 12 90 5 Q93 2 95 3" stroke="#FF3399" stroke-width="18" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+    <path d="M95 3 Q97 2 100 5 Q106 12 112 28 Q122 58 130 95 Q138 135 142 170" stroke="#FF3399" stroke-width="18" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+    <path d="M62 110 Q78 104 95 108 Q112 112 128 106" stroke="#39FF33" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.75"/></g>
+  <text x="105" y="48" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#1A1A1A" letter-spacing="2">Art at the Afters</text>
+  <text x="105" y="68" font-family="Arial, sans-serif" font-size="9" fill="#AAAAAA" font-style="italic">by <tspan font-family="Georgia, serif" fill="#999999">Stevie Alger</tspan></text>
+  <text x="105" y="90" font-family="Arial, sans-serif" font-size="9" fill="#BBBBBB">artattheafters.com | @artattheafters | Venmo @steviealger</text>
+  <line x1="0" y1="139" x2="800" y2="139" stroke="#FF3399" stroke-width="2" opacity="0.4"/>
+</svg>

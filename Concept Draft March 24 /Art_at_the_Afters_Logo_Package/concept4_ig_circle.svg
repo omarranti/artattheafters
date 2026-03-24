@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <clipPath id="circle-crop">
+      <circle cx="200" cy="200" r="200"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circle-crop)">
+    <rect width="400" height="400" fill="#1A1A1A"/>
+    <g transform="translate(200, 200) scale(1.8)">
+      <path d="M-50 -18 Q-62 -45 -40 -56 Q-18 -65 2 -62 Q25 -58 42 -68 Q58 -62 55 -40 Q62 -18 58 8 Q65 30 52 48 Q40 62 18 58 Q-8 65 -30 56 Q-50 50 -56 30 Q-62 8 -50 -18Z" fill="#FF3399" opacity="0.8"/>
+      <circle cx="-46" cy="-50" r="9" fill="#39FF33" opacity="0.6"/>
+      <circle cx="54" cy="-54" r="7" fill="#39FF33" opacity="0.5"/>
+      <circle cx="-58" cy="18" r="6" fill="#39FF33" opacity="0.45"/>
+      <circle cx="58" cy="40" r="5" fill="#39FF33" opacity="0.4"/>
+      <circle cx="35" cy="60" r="4" fill="#39FF33" opacity="0.35"/>
+      <circle cx="-42" cy="52" r="3.5" fill="#39FF33" opacity="0.3"/>
+      <circle cx="-65" cy="-35" r="3" fill="#FF3399" opacity="0.4"/>
+      <circle cx="65" cy="-25" r="2.5" fill="#FF3399" opacity="0.35"/>
+      <circle cx="0" cy="0" r="40" fill="#0D0D0D"/>
+      <ellipse cx="-12" cy="-14" rx="16" ry="10" fill="#1A1A1A" opacity="0.8" transform="rotate(-25 -12 -14)"/>
+      <circle cx="0" cy="0" r="18" fill="#FFFFFF"/>
+      <text x="0" y="1" text-anchor="middle" dominant-baseline="central" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#0D0D0D">A</text>
+    </g>
+  </g>
+</svg>

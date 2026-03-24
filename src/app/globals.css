@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-pink: #FF3399;
+  --color-brand-green: #39FF33;
+  --color-brand-dark: #0D0D0D;
+  --color-brand-dark2: #161616;
+  --color-brand-dark3: #1E1E1E;
+  --color-brand-gray: #2A2A2A;
+  --color-brand-gray2: #3A3A3A;
+  --color-brand-muted: #777777;
+  --color-brand-white: #F5F5F5;
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+
+  --animate-fade-up: fade-up 0.8s ease forwards;
+  --animate-marquee: marquee 30s linear infinite;
+  --animate-grain: grain 0.5s steps(6) infinite;
+}
+
+/* ────────────────────────────────────────────
+   Keyframes
+   ──────────────────────────────────────────── */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes grain {
+  0%   { transform: translate(0, 0); }
+  10%  { transform: translate(-5%, -10%); }
+  20%  { transform: translate(-15%, 5%); }
+  30%  { transform: translate(7%, -25%); }
+  40%  { transform: translate(-5%, 25%); }
+  50%  { transform: translate(-15%, 10%); }
+  60%  { transform: translate(15%, 0%); }
+  70%  { transform: translate(0%, 15%); }
+  80%  { transform: translate(3%, 35%); }
+  90%  { transform: translate(-10%, 10%); }
+  100% { transform: translate(0, 0); }
+}
+
+/* ────────────────────────────────────────────
+   Base Styles
+   ──────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0D0D0D;
+  color: #F5F5F5;
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ────────────────────────────────────────────
+   Selection
+   ──────────────────────────────────────────── */
+::selection {
+  background-color: rgba(255, 51, 153, 0.27);
+  color: #F5F5F5;
+}
+
+::-moz-selection {
+  background-color: rgba(255, 51, 153, 0.27);
+  color: #F5F5F5;
+}
+
+/* ────────────────────────────────────────────
+   Custom Scrollbar
+   ──────────────────────────────────────────── */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #FF3399 #1E1E1E;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1E1E1E;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #FF3399;
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #ff55aa;
+}
+
+/* ────────────────────────────────────────────
+   Press Scale
+   ──────────────────────────────────────────── */
+.press-scale {
+  transition: transform 0.25s ease;
+}
+.press-scale:active {
+  transform: scale(0.96);
+}
+
+/* ────────────────────────────────────────────
+   Grain Overlay
+   ──────────────────────────────────────────── */
+.grain-overlay {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.015;
+  mix-blend-mode: overlay;
+  animation: grain 0.5s steps(6) infinite;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+}

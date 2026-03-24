@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 160" width="600" height="160">
+  <rect width="600" height="160" fill="#1A1A1A"/>
+  <text x="300" y="55" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#FFFFFF" letter-spacing="8">ART AT THE AFTERS</text>
+  <path d="M108 68 Q200 63 300 67 Q400 71 492 65" stroke="#39FF33" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.45"/>
+  <text x="300" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#666666" font-style="italic" letter-spacing="1">by <tspan font-family="Georgia, 'Times New Roman', serif" fill="#888888" letter-spacing="2">Stevie Alger</tspan></text>
+  <text x="300" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="3" fill="#555555">ONE OF A KIND CUSTOM ARTWORK</text>
+</svg>
