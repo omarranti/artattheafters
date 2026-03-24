@@ -12,12 +12,14 @@ const stats = [
 ];
 
 const socialProofImages = [
-  "/photos/social-proof/dm-requests-grid-1.jpg",
-  "/photos/social-proof/dm-requests-grid-2.jpg",
-  "/photos/social-proof/dm-convinced.png",
-  "/photos/social-proof/dm-byron-bay.png",
-  "/photos/social-proof/nostalgia-series-dm.png",
-  "/photos/social-proof/story-responses.png",
+  { src: "/photos/social-proof/dm-requests-grid-1.jpg", alt: "DM requests showing artwork interest" },
+  { src: "/photos/social-proof/dm-requests-grid-2.jpg", alt: "More DM requests from fans" },
+  { src: "/photos/social-proof/dm-requests-collage.jpg", alt: "Collage of DM requests" },
+  { src: "/photos/social-proof/dm-requests-collage-2.jpg", alt: "More DM request collages" },
+  { src: "/photos/social-proof/dm-convinced.png", alt: "Customer convinced to buy artwork" },
+  { src: "/photos/social-proof/dm-byron-bay.png", alt: "DM from Byron Bay customer" },
+  { src: "/photos/social-proof/story-responses.png", alt: "Instagram story responses" },
+  { src: "/photos/social-proof/nostalgia-series-dm.png", alt: "Nostalgia series DM conversation" },
 ];
 
 export default function AboutPage() {
@@ -187,16 +189,16 @@ export default function AboutPage() {
             Real DMs. Real requests. Real love.
           </p>
         </ScrollReveal>
-        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-4">
-          {socialProofImages.map((src, i) => (
+        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
+          {socialProofImages.map((img, i) => (
             <ScrollReveal key={i} delay={i * 0.08}>
               <div className="rounded-xl overflow-hidden bg-brand-dark2 border border-brand-gray/20 relative aspect-[3/4]">
                 <Image
-                  src={src}
-                  alt={`Social proof ${i + 1}`}
+                  src={img.src}
+                  alt={img.alt}
                   fill
                   className="object-cover"
-                  sizes="(max-width: 768px) 50vw, 33vw"
+                  sizes="(max-width: 768px) 50vw, 25vw"
                 />
               </div>
             </ScrollReveal>

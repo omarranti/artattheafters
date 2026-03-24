@@ -12,6 +12,8 @@ const socialProofImages = [
   { src: "/photos/social-proof/story-responses.png", alt: "Instagram story responses" },
   { src: "/photos/social-proof/nostalgia-series-dm.png", alt: "Nostalgia series DM conversation" },
   { src: "/photos/social-proof/dm-byron-bay.png", alt: "DM from Byron Bay customer" },
+  { src: "/photos/social-proof/story-responses-3.png", alt: "More Instagram story responses" },
+  { src: "/photos/social-proof/nostalgia-series-grid.png", alt: "The Nostalgia Series — 6 hand-painted originals" },
 ];
 
 export default function InstagramFeed() {
@@ -25,7 +27,7 @@ export default function InstagramFeed() {
         </p>
 
         {/* Grid of real social proof screenshots */}
-        <div className="mt-12 grid grid-cols-2 gap-3 sm:grid-cols-3 md:gap-4">
+        <div className="mt-12 grid grid-cols-2 gap-3 sm:grid-cols-4 md:gap-4">
           {socialProofImages.map((post, i) => (
             <motion.div
               key={post.src}
@@ -43,7 +45,7 @@ export default function InstagramFeed() {
                 alt={post.alt}
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
-                sizes="(max-width: 640px) 50vw, 33vw"
+                sizes="(max-width: 640px) 50vw, 25vw"
               />
 
               {/* Hover border glow overlay */}

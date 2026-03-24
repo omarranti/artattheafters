@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import GalleryGrid from "@/components/gallery/GalleryGrid";
 import { artworks } from "@/data/artworks";
 import EmailCapture from "@/components/ui/EmailCapture";
@@ -25,6 +26,29 @@ export default function GalleryPage() {
       {/* Grid */}
       <section className="px-6 pb-12">
         <GalleryGrid artworks={artworks} />
+      </section>
+
+      {/* Nostalgia Series Feature */}
+      <section className="px-6 pb-16 max-w-5xl mx-auto">
+        <div className="rounded-2xl overflow-hidden border border-brand-gray/20 bg-brand-dark2">
+          <div className="relative w-full aspect-[4/3] md:aspect-[16/9]">
+            <Image
+              src="/photos/social-proof/nostalgia-series-grid.png"
+              alt="The Nostalgia Series — 6 hand-painted original paintings by Stevie"
+              fill
+              className="object-contain bg-black"
+              sizes="(max-width: 1024px) 100vw, 1024px"
+            />
+          </div>
+          <div className="px-6 py-5 text-center">
+            <p className="text-xl md:text-2xl text-white font-display">
+              The Nostalgia Series
+            </p>
+            <p className="mt-1 text-brand-muted text-sm">
+              All hand-painted originals
+            </p>
+          </div>
+        </div>
       </section>
 
       {/* Email capture below gallery */}
