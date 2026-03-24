@@ -36,6 +36,11 @@ export default function OrderPage() {
         <SizeGuide />
       </section>
 
+      {/* Process Timeline */}
+      <section className="py-16 md:py-20 px-6">
+        <ProcessTimeline />
+      </section>
+
       {/* Commission Form */}
       <section className="py-16 md:py-20 px-6">
         <CommissionForm />
@@ -44,11 +49,6 @@ export default function OrderPage() {
       {/* Testimonials near form */}
       <section className="py-16 md:py-20 px-6">
         <OrderTestimonials />
-      </section>
-
-      {/* Process Timeline */}
-      <section className="py-16 md:py-20 px-6">
-        <ProcessTimeline />
       </section>
 
       {/* Shipping & Packaging */}
