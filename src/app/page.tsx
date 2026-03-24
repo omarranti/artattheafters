@@ -7,10 +7,14 @@ import InstagramFeed from "@/components/home/InstagramFeed";
 import DonateSection from "@/components/home/DonateSection";
 import EmailCapture from "@/components/ui/EmailCapture";
 import HomeTestimonials from "@/components/home/HomeTestimonials";
+import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
+
+const BASE_URL = 'https://artattheafters.vercel.app';
 
 export default function HomePage() {
   return (
     <>
+      <BreadcrumbJsonLd items={[{ name: 'Home', url: BASE_URL }]} />
       <Hero />
       <StorySection />
       <FeaturedGallery />

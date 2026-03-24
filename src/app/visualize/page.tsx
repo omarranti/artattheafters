@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
+import { VisualizerJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 
 const PINK = "#FF44AA";
 const GREEN = "#5BFFA0";
@@ -217,6 +218,11 @@ export default function VisualizeYourPiece() {
   // ============ INTRO ============
   if (phase === "intro") return (
     <div className="visualize-page">
+      <VisualizerJsonLd />
+      <BreadcrumbJsonLd items={[
+        { name: 'Home', url: 'https://artattheafters.vercel.app' },
+        { name: 'Visualize', url: 'https://artattheafters.vercel.app/visualize' },
+      ]} />
       <style>{visualizeStyles}</style>
       <Splatter style={{ top: -20, right: -30 }} />
       <Splatter style={{ bottom: 40, left: -20 }} />
