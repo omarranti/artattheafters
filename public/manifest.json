@@ -1,16 +1,30 @@
 {
-  "name": "Art at the Afters",
-  "short_name": "AATA",
-  "description": "One of a kind custom made artwork, delivered to you.",
+  "name": "Art at the Afters — Custom Artwork by Stevie Alger",
+  "short_name": "Art at the Afters",
+  "description": "One of a kind custom made artwork, delivered to you. Hand-painted originals by LA artist Stevie Alger. Pop culture, anime, abstract, and custom acrylic paintings shipped worldwide.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#0D0D0D",
   "theme_color": "#FF3399",
+  "orientation": "any",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["art", "shopping", "lifestyle"],
   "icons": [
     {
       "src": "/icons/concept4_favicon_512.svg",
       "sizes": "512x512",
-      "type": "image/svg+xml"
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/concept4_favicon_512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
     }
-  ]
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
 }

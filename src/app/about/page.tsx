@@ -3,6 +3,7 @@
 import Image from "next/image";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import Button from "@/components/ui/Button";
+import { ArtistPersonJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 
 const stats = [
   { label: "Paintings", value: "75+" },
@@ -25,6 +26,12 @@ const socialProofImages = [
 export default function AboutPage() {
   return (
     <>
+      <ArtistPersonJsonLd />
+      <BreadcrumbJsonLd items={[
+        { name: 'Home', url: 'https://artattheafters.vercel.app' },
+        { name: 'About', url: 'https://artattheafters.vercel.app/about' },
+      ]} />
+
       {/* Hero */}
       <section className="relative pt-32 pb-16 px-6 text-center">
         <ScrollReveal>
