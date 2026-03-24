@@ -69,7 +69,7 @@ export default function CommissionForm() {
           Tell me what you want — I&apos;ll follow up within 24 hours with size options, pricing, and next steps.
         </p>
         <p className="font-body text-white/30 text-center text-sm max-w-md mx-auto mb-12">
-          Custom pieces start at $45. See sizes above for full pricing.
+          Custom pieces start at $50. See sizes above for full pricing.
         </p>
       </ScrollReveal>
 

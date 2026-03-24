@@ -12,12 +12,13 @@ interface SizeOption {
 }
 
 const sizes: SizeOption[] = [
-  { name: '5\u00d77', dimensions: '5" \u00d7 7"', price: "$45", width: 50, height: 70 },
-  { name: '8\u00d710', dimensions: '8" \u00d7 10"', price: "$75", width: 64, height: 80 },
-  { name: '9\u00d712', dimensions: '9" \u00d7 12"', price: "$95", width: 68, height: 90 },
-  { name: '11\u00d714', dimensions: '11" \u00d7 14"', price: "$120", width: 78, height: 100 },
-  { name: '16\u00d720', dimensions: '16" \u00d7 20"', price: "$180", width: 88, height: 110 },
-  { name: '26\u00d732', dimensions: '26" \u00d7 32"', price: "$350", width: 104, height: 128 },
+  { name: '5\u00d77', dimensions: '5" \u00d7 7"', price: "$50", width: 50, height: 70 },
+  { name: '8\u00d710', dimensions: '8" \u00d7 10"', price: "$100", width: 64, height: 80 },
+  { name: '9\u00d712', dimensions: '9" \u00d7 12"', price: "$200", width: 68, height: 90 },
+  { name: '11\u00d714', dimensions: '11" \u00d7 14"', price: "$250", width: 78, height: 100 },
+  { name: '16\u00d720', dimensions: '16" \u00d7 20"', price: "$350", width: 88, height: 110 },
+  { name: '18\u00d724', dimensions: '18" \u00d7 24"', price: "$500", width: 96, height: 128 },
+  { name: '24\u00d736', dimensions: '24" \u00d7 36"', price: "$900", width: 104, height: 156 },
   { name: "Custom", dimensions: "Any size", price: "$???", width: 96, height: 96 },
 ];
 

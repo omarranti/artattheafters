@@ -47,7 +47,7 @@ export default function FloatingCTA() {
             <div className="bg-brand-dark/95 backdrop-blur-lg border-t border-brand-gray/20 px-4 py-3 flex items-center gap-3">
               <div className="flex-1 min-w-0">
                 <p className="font-body text-white/90 text-sm font-semibold truncate">
-                  Custom pieces from $45
+                  Custom pieces from $50
                 </p>
                 <p className="font-body text-white/40 text-xs">
                   Hand-painted by Stevie, just for you
@@ -87,7 +87,7 @@ export default function FloatingCTA() {
               >
                 <div>
                   <p className="font-body text-white/90 text-sm font-semibold group-hover:text-white transition-colors">
-                    Custom pieces from $45
+                    Custom pieces from $50
                   </p>
                   <p className="font-body text-white/40 text-xs">
                     Hand-painted just for you
