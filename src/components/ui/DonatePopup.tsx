@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const STRIPE_DONATE_URL =
   "https://buy.stripe.com/7sY7sLcK9dwG52ocQs1VK00";
 
-const POPUP_DELAY_MS = 45_000; // 45 seconds
+const POPUP_DELAY_MS = 15_000; // 15 seconds
 const DISMISS_KEY = "aata_donate_popup_dismissed";
 
 export default function DonatePopup() {
