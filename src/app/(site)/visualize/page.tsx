@@ -469,7 +469,7 @@ export default function VisualizeYourPiece() {
                 {/* CTA */}
                 <div className="visualize-cta-wrap">
                   <a href="https://www.instagram.com/artattheafters/" target="_blank" rel="noopener noreferrer" className="visualize-cta-primary">DM Stevie on Instagram</a>
-                  <a href="https://venmo.com/u/Steviealger" target="_blank" rel="noopener noreferrer" className="visualize-cta-secondary">Pay via Venmo @steviealger</a>
+                  <a href="https://buy.stripe.com/7sY7sLcK9dwG52ocQs1VK00" target="_blank" rel="noopener noreferrer" className="visualize-cta-secondary">Pay via Venmo @steviealger</a>
                   <p className="visualize-cta-note">
                     Final price confirmed after chatting with Stevie.<br />Every piece is custom — no two are ever the same.
                   </p>

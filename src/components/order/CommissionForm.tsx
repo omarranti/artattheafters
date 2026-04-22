@@ -179,8 +179,8 @@ export default function CommissionForm() {
             <p className="font-body text-white/40 text-sm">
               Prefer to keep it simple? DM on{" "}
               <a href="https://www.instagram.com/artattheafters/" target="_blank" rel="noopener noreferrer" className="text-brand-pink hover:underline">Instagram</a>
-              {" "}or Venmo{" "}
-              <span className="text-brand-green">@steviealger</span> with your
+              {" "}or{" "}
+              <a href="https://buy.stripe.com/7sY7sLcK9dwG52ocQs1VK00" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">Venmo @steviealger</a> with your
               idea.
             </p>
           </div>

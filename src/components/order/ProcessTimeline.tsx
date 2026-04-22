@@ -79,7 +79,7 @@ const steps: Step[] = [
   {
     number: 3,
     title: "Payment",
-    description: "Pay via Venmo or PayPal",
+    description: "Pay via Venmo @steviealger",
     icon: <DollarIcon />,
   },
   {

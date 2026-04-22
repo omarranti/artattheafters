@@ -19,7 +19,7 @@ const cards = [
     icon: <span className="text-xl font-extrabold font-body text-brand-green">V</span>,
     title: "Venmo",
     value: "@steviealger",
-    link: "https://venmo.com/u/Steviealger",
+    link: "https://buy.stripe.com/7sY7sLcK9dwG52ocQs1VK00",
     linkLabel: "Send Payment",
     color: "green" as const,
   },

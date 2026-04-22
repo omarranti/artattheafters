@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const easeTransition = {
   duration: 0.8,
@@ -42,7 +43,7 @@ export default function DonateSection() {
 
           {/* Donate button */}
           <motion.a
-            href="https://www.paypal.com/donate/?business=artattheafters"
+            href="https://buy.stripe.com/7sY7sLcK9dwG52ocQs1VK00"
             target="_blank"
             rel="noopener noreferrer"
             className="relative inline-flex items-center justify-center overflow-hidden rounded-full bg-brand-pink px-8 py-4 font-body text-base uppercase tracking-wider text-brand-white transition-colors hover:brightness-110 hover:opacity-90"
@@ -50,7 +51,7 @@ export default function DonateSection() {
             whileTap={{ scale: 0.96 }}
             transition={{ duration: 0.25, ease: "easeOut" }}
           >
-            Donate via PayPal
+            Donate via Venmo @steviealger
           </motion.a>
         </motion.div>
       </div>
