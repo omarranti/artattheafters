@@ -7,6 +7,7 @@ import Footer from "@/components/layout/Footer";
 import GrainOverlay from "@/components/ui/GrainOverlay";
 import CustomCursor from "@/components/ui/CustomCursor";
 import FloatingCTA from "@/components/ui/FloatingCTA";
+import DonatePopup from "@/components/ui/DonatePopup";
 import { WebsiteJsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
@@ -80,6 +81,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <FloatingCTA />
+        <DonatePopup />
         <Footer />
       </body>
     </html>
